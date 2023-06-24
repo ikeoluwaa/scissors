@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: "gilroy-bold";
+  font-family: "Rubik", sans-serif;
   /* line-height: 1; */
   /* font-weight: 400; */
 }
@@ -103,8 +103,6 @@ header {
   font-size: 1.6rem;
   line-height: 1.9rem;
   align-items: center;
-  width: 4.5rem;
-  height: 2rem;
 }
 
 .btn {
@@ -162,8 +160,6 @@ header {
   font-size: 1.6rem;
   line-height: 1.9rem;
   align-items: center;
-  width: 8.4rem;
-  height: 2rem;
 }
 
 .hero-links {
@@ -222,7 +218,8 @@ article {
 }
 .article-info {
   display: flex;
-  gap: 3rem;
+  justify-content: space-between;
+  gap: 9rem;
 }
 .article-heading {
   font-size: 4rem;
@@ -336,7 +333,7 @@ article {
 .price-title-container {
   display: flex;
   justify-content: center;
-  gap: 5px;
+  gap: 0.5rem;
   text-align: center;
 }
 
@@ -363,14 +360,15 @@ article {
   align-items: center;
   justify-content: center;
 }
+
 .pricing--card--1 {
-  width: 379px;
-  height: 455px;
+  padding: 0 3.2rem 3.2rem 0;
   background: #ffffff;
   border: 0.4px solid #005ae2;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
-  border-radius: 12px;
+  border-radius: 1.2rem;
 }
+
 .pricing--card--2 {
   padding: 6rem 0 8rem 0;
   background: linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%);
@@ -378,15 +376,14 @@ article {
   border-radius: 1.2rem;
   transform: scale(1.1);
 }
+
 .pricing--card--3 {
-  width: 379px;
-  height: 455px;
+  padding: 0 0 3.2rem 0;
   background: #ffffff;
   border: 0.4px solid #005ae2;
-  /* Drop shadow */
-
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
   border-radius: 1.2rem;
+  transition: 0.6s;
 }
 
 .plan-details .pro {
@@ -409,8 +406,6 @@ article {
   gap: 1.6rem;
 }
 .plan-name {
-  width: 6rem;
-  height: 3.2rem;
   font-size: 2.4rem;
   line-height: 3.2rem;
 
@@ -418,11 +413,9 @@ article {
 }
 
 .plan-name.pro {
-  width: 131px;
-  height: 32px;
-  font-size: 24px;
-  line-height: 32px;
-  text-align: center;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  text-align: unset;
 
   color: #ffffff;
 }
@@ -447,26 +440,21 @@ article {
 }
 
 .plan-price.pro {
-  width: 200px;
-  height: 48px;
-  font-size: 40px;
-  line-height: 48px;
-
-  text-align: center;
+  font-size: 4rem;
+  line-height: 4rem;
+  text-align: unset;
   color: #ffffff;
 }
 .plan-user.pro {
-  width: 239px;
-  height: 32px;
-  font-size: 20px;
-  line-height: 32px;
-  text-align: center;
+  text-align: unset;
+  font-size: 2rem;
+  line-height: 3.2rem;
   color: #ffffff;
 }
 .list-items.pro {
-  height: 24px;
-  font-size: 14px;
-  line-height: 24px;
+  height: 2.4rem;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
   text-align: center;
   color: #ffffff;
 }
@@ -479,14 +467,14 @@ article {
   margin-bottom: 12.8rem;
 }
 .pricing--btn--1 {
-  width: 200px;
-  height: 48px;
+  width: 20rem;
+  height: 4.8rem;
 
-  padding: 12px 24px;
-  border-radius: 100px;
+  padding: 1.2rem 2.4rem;
+  border-radius: 10rem;
 
-  font-size: 16px;
-  line-height: 12px;
+  font-size: 1.6rem;
+  line-height: 1.2rem;
 
   color: #0065fe;
   background-color: #ffffff;
@@ -539,13 +527,14 @@ article {
 .cta-container {
   padding: 2rem 0 4.8rem;
   background: #ffffff;
-  border-radius: 12px;
+  border-radius: 1.2rem;
 }
+
 .cta-url {
   display: block;
-  width: 400px;
-  height: 62px;
-  margin: 36px;
+  width: 40rem;
+  height: 6.2rem;
+  margin: 3.6rem;
 }
 .cta-form input {
   border: 1px solid #3284ff;
@@ -554,16 +543,17 @@ article {
 }
 
 .cta-form input::placeholder {
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
   color: #3284ff;
-  padding: 2px 0 2px 24px;
+  padding: 0.2rem 0 0.2rem 2.4rem;
 }
 
 .cta-form button {
-  display: block;
+  display: flex;
   align-items: center;
-  padding: 12px 24px;
+  justify-content: center;
+  padding: 1.2rem 2.4rem;
   width: 39.2rem;
   height: 4.8rem;
   border: none;
@@ -580,7 +570,7 @@ article {
   font-size: 14px;
   line-height: 12px;
   color: #3284ff;
-  padding: 6px;
+  padding: 0.6rem;
   width: 20rem;
   height: 4.8rem;
   border: 1px solid #3284ff;
@@ -636,6 +626,7 @@ article {
 .faq-container {
   margin: 9.6rem 20rem 0;
 }
+
 .faq-description {
   display: flex;
   justify-content: space-between;
