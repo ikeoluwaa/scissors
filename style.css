@@ -660,7 +660,7 @@ article {
   padding: 7rem;
   background: linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%);
   background: linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%);
-  background: url(), url();
+  background-image: url(./img\cta left.png);
   background-position: left bottom, right bottom;
   background-position-x: left, right;
   background-position-y: bottom, bottom;
