@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  max-width: 140rem;
+  max-width: 100rem;
   padding: 2rem 12rem 2rem;
 }
 
@@ -37,7 +37,6 @@ a:link {
 
 .hero-section {
   background: #fff;
-  max-width: 140rem;
   margin: 0 auto;
 }
 
@@ -51,12 +50,11 @@ a:link {
   width: 100%;
 }
 .navigation {
-  max-width: 100%;
   margin: 0 auto;
 }
 .header-container {
   width: 100%;
-  max-width: 140rem;
+  max-width: 100rem;
   margin: 0 auto;
   padding: 12px 0;
   display: flex;
@@ -64,20 +62,20 @@ a:link {
   justify-content: space-between;
 }
 header {
-  width: 100%;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
-  justify-content: center;
-  padding: 1 12rem;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1 8rem;
 }
 .logo {
   margin-left: 2.4rem;
 }
 
 .main-nav {
-  font-size: 1.8rem;
-  line-height: 2.1rem;
+  font-size: 1.6rem;
+  line-height: 1.5;
 }
 /* .feature-tag:link,
 .feature-tag:visited {
@@ -86,7 +84,7 @@ header {
 
 .main-nav-list {
   display: flex;
-  gap: 6rem;
+  gap: 4rem;
   align-self: center;
   justify-content: center;
   list-style: none;
@@ -112,10 +110,10 @@ header {
   color: #141414;
   transition: all 0.3s;
 }
-.heading center(
+.heading-center {
   width: 100%;
-
-) .nav-link:hover:hover,
+}
+.nav-link:hover:hover,
 .nav-link:hover:active {
   color: #0065fe;
 }
@@ -155,17 +153,17 @@ header {
 .nav-header,
 .section-center {
   width: 90%;
-  max-width: 1200px;
+  max-width: 120rem;
   margin: 0 auto;
 }
 
 header {
-  padding-top: 3.5rem;
+  padding-top: 2rem;
 }
 
 .heading-primary {
   text-transform: capitalize;
-  max-width: 1000px;
+  max-width: ;
   margin: 0 auto;
   font-size: 2.5rem;
 }
@@ -194,32 +192,16 @@ header {
   cursor: pointer;
 }
 
-.bg-none {
-  background: none;
-  border: none;
-}
-
-.chain-img {
-  width: 100%;
-  max-width: 384px;
-}
-
-.chain-container {
+/* .chain-container {
   position: relative;
   background: white;
   z-index: 100;
-  width: 100%;
+ 
   max-width: 600px;
-  margin-block: 3rem;
-  margin-block-end: 4rem;
+ 
 }
 
 .chain {
-  padding: 2.5rem 3.75rem;
-  background: rgba(254, 254, 254, 0.1);
-  border: 0.5px solid #005ae2;
-  border-radius: 24px;
-  backdrop-filter: blur(106px);
   display: flex;
   flex-direction: column;
 
@@ -231,24 +213,10 @@ header {
   z-index: 1000;
 }
 
-.chain-bg {
-  position: absolute;
-  top: -1.5rem;
-  left: 0.2rem;
-  height: 100%;
-  z-index: -100;
-}
-
-.chain-text {
-  text-align: center;
-  max-width: 25rem;
-  margin: 0 auto;
-}
-
-.circle-layer-img {
+. .circle-layer-img {
   width: 100%;
   display: block;
-}
+} */
 
 /* ////////////////////////////////// */
 /* ////////////////////////////////// */
@@ -258,17 +226,19 @@ header {
 
 .hero-section {
   position: relative;
-  max-width: 140rem;
+  max-width: 100rem;
   width: 90%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
 .heading-primary {
   text-transform: capitalize;
-  max-width: 1000px;
-  margin: 0 auto;
-  font-size: 2.5rem;
+  max-width: 100rem;
+  line-height: 2;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 9.6rem;
 }
 
 .blue-line {
@@ -277,15 +247,13 @@ header {
   transform: translate(60%, -100%);
 }
 .hero-description {
-  max-width: 100%;
-  margin: 0 auto;
-  font-size: 1.125rem;
-  font-size: 1.8rem;
-  line-height: 2.8rem;
+  max-width: 75rem;
   text-align: center;
-
-  padding: 2.4rem 34rem 0 34rem;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  padding: 3rem;
   color: #141414;
+  margin-top: 1rem;
 }
 .hero-links a {
   align-self: center;
@@ -304,7 +272,7 @@ header {
 }
 
 .hero-frame {
-  margin: 0 48rem;
+  margin: 0 30rem;
   padding: 4rem 6rem;
   width: 76.8rem;
   height: 22.4rem;
@@ -314,21 +282,28 @@ header {
 }
 
 .hero-svg {
+  position: absolute;
+  top: -1.5rem;
+  left: 0.2rem;
   width: 30rem;
   height: 26rem;
-  position: absolute;
-  left: 46rem;
-  bottom: 16.8rem;
+  z-index: -100;
 }
+.chain-img {
+}
+
 .hero-img {
   display: flex;
   align-items: center;
+  width: 100%;
+  max-width: 400rem;
 }
 .hero-text {
-  font-size: 1.6rem;
-  line-height: 2.4rem;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
   text-align: center;
-  margin: 0 9.6rem 0 9.6rem;
+  margin: 0 9.8rem 0 9.6rem;
+  text-align: center;
 }
 
 .img-container {
@@ -378,8 +353,8 @@ article {
 
 /* feature-section */
 
-.feature-section {
-}
+/* .feature-section {
+} */
 
 .feature-container {
   padding-top: 12rem;
@@ -491,7 +466,7 @@ article {
 }
 
 .pricing-card {
-  width: 110rem;
+  width: 100rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
@@ -653,21 +628,21 @@ article {
 /* cta section */
 /* /////////////////////////// */
 
+.cta-section {
+  background: url(./images/Group\ 2.svg), url(./images/Group\ 3.svg);
+  background-position: right, left;
+  background-color: #1e3448;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 71%;
+  width: 100%;
+}
 .cta {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 7rem;
-  background: linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%);
-  background: linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%);
-  background-image: url(./img\cta left.png);
-  background-position: left bottom, right bottom;
-  background-position-x: left, right;
-  background-position-y: bottom, bottom;
-  background-color: #1e3448;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 70%;
-  min-width: 100%;
+
+  /* min-width: 100%; */
 }
 
 .cta-container {
@@ -751,7 +726,7 @@ article {
 
 .faq-section {
   padding-bottom: 12.8rem;
-  background-image: url(./img/footer\ left.png), url(./img/footer\ right.png);
+  background-image: url(./images/faq\ left.svg), url(./images/faq\ right.svg);
   background-position: top left, right bottom;
   background-repeat: no-repeat, no-repeat;
 }
@@ -821,7 +796,7 @@ article {
   justify-content: center;
   gap: 4.8rem;
   background: linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%);
-  background: url(./img/Group\ 5.png), url(./img/Group\ 4.png);
+  background: url(./images/rev\ left.svg), url(./images/rev\ right.svg);
   background-position: left bottom, right bottom;
   background-position-x: left, right;
   background-position-y: bottom, bottom;
@@ -853,7 +828,8 @@ article {
 .main-footer {
   padding-block: 8.5rem;
   padding-block-end: 4.5rem;
-  background-image: url(./img/Group\ 9.png), url(./img/Group\ 10.png);
+  background-image: url(./images/footer\ left.svg),
+    url(./images/footer\ right.svg);
   background-position: bottom left, right bottom;
   background-repeat: no-repeat, no-repeat;
 }
