@@ -192,31 +192,11 @@ header {
   cursor: pointer;
 }
 
-/* .chain-container {
-  position: relative;
-  background: white;
-  z-index: 100;
- 
-  max-width: 600px;
- 
-}
-
-.chain {
-  display: flex;
-  flex-direction: column;
-
-  background: linear-gradient(
-    to right,
-    rgba(226, 233, 240, 0.7) rgba(220, 228, 235, 0.7),
-    rgba(255, 255, 255, 1)
-  );
-  z-index: 1000;
-}
-
-. .circle-layer-img {
+.circle-layer-img {
   width: 100%;
   display: block;
-} */
+}
+*
 
 /* ////////////////////////////////// */
 /* ////////////////////////////////// */
@@ -270,13 +250,23 @@ header {
   margin-top: 6.4rem;
   margin-bottom: 6.4rem;
 }
+.chain-container {
+  background: white;
+  background: white;
+
+  max-width: 600px;
+  margin-block: 3rem;
+  margin-block-end: 4rem;
+}
 
 .hero-frame {
+  background: white;
   margin: 0 30rem;
   padding: 4rem 6rem;
   width: 76.8rem;
   height: 22.4rem;
   border: 0.5px solid #005ae2;
+  background: rgba(254, 254, 254, 0.1);
   backdrop-filter: blur(10.6rem);
   border-radius: 2.4rem;
 }
