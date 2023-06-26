@@ -12,15 +12,17 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="querries.css">
   </head>
 
   <body>
      <!-- HERO SECTION -->
      <section class="hero-section">
-    <header class="header container">
+      <div class="navigation sticky">
+      <header class="header section-center ">
       <div class="logo">
-        <img src="img/Logo.svg" alt="" />
-      </div>
+        <img src="img /Logo.svg" alt="" />
+       </div>
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link nav-cta" href="#">My URLs</a></li>
@@ -40,26 +42,17 @@
         <button class="btn">Try for free</button>
       </nav>
     </header>
+  </div>
     <main>
-     
+      <div class="heading center">
         <h1 class="heading-primary">
           Optimize Your Online Experience with Our Advanced
           <span class="blue-text">URL Shortening</span>
           Solution
         </h1>
         <p class="blue-line">
-          <svg
-            width="174"
-            height="21"
-            viewBox="0 0 174 21"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M162.517 0.905029C75.1007 1.58333 17.7488 11.4833 0 16.3486L9.28502 15.694L2.32125 17.9693L10.2135 17.6848L6.03526 19.3913L12.0705 20.8133C52.0748 16.4528 149.09 6.6406 173.63 5.2387L155.524 4.88668C165.556 3.5543 166.666 3.60686 166.666 3.60686C166.666 3.60686 162.517 2.61145 162.517 0.905029Z"
-              fill="#005AE2"
-            />
-          </svg>
+          <img src="img /blue line.png" alt="">
+
         </p>
         <p class="hero-description">
           Personalize your shortened URLs to align with your brand identity.
@@ -72,10 +65,10 @@
           <a class="main-nav-link nav-cta" href="#">Learn more</a>
         </div>
         <div>
-          <img src="img/background-chain.svg" alt="" class="hero-svg" />
+          <img src="img /background-chain.svg" alt="" class="hero-svg" />
           <div class="hero-frame">
             <div class="hero-img">
-              <img src="img/chain.png" alt=" chain image" />
+              <img src="img /chain.png" alt=" chain image" class="chain-img"/>
             </div>
             <p class="hero-text">
               Seamlessly transform your long URLs into concise and shareable
@@ -83,7 +76,9 @@
             </p>
           </div>
         </div>
+      </div>
 
+       
         <div class="img-container">
           <img
             class="cir"
@@ -93,9 +88,9 @@
         </div>
       </section>
       <!--    VIEWS ARTICLE    -->
-      <section>
+      <section class="">
         <article class="">
-          <div class="views-center">
+          <div class="views-center section-center">
             <h2 class="article-heading">
               One Stop. <br />Four <span class="blue-text">Possibilities</span>.
             </h2>
@@ -127,7 +122,8 @@
         </article>
       </section>
       <!--  feature section  -->
-      <section class="feature-section container">
+      <section class="feature-section ">
+        <div class="feature-container section-center">
         <div class="feature-head">
           <div class="feature-title-bar">
             <div class="title-bar"></div>
@@ -149,7 +145,7 @@
 
         <div class="features-sec">
           <div class="features">
-            <img src="img/Group 6.png" alt="" />
+            <img src="img /Group 6.png" alt="url" />
             <h3 class="features-heading">URL Shortening</h3>
             <p class="features-text">
               Scissor allows you to shorten URLs of your business, events.
@@ -157,7 +153,7 @@
             </p>
           </div>
           <div class="features">
-            <img src="img/Group 6 (1).png" alt="" />
+            <img src="img /Group 6 (1).png" alt="customs url" />
             <h3 class="features-heading">Custom URLs</h3>
             <p class="features-text">
               With Scissor, you can create custom URLs, with the length you
@@ -165,7 +161,7 @@
             </p>
           </div>
           <div class="features">
-            <img src="img/Group 7.png" alt="" />
+            <img src="img /Group 7.png" alt="QR codes" />
             <h3 class="features-heading">QR Codes</h3>
             <p class="features-text">
               Generate QR codes to your business, events. Bring your audience
@@ -173,7 +169,7 @@
             </p>
           </div>
           <div class="features">
-            <img src="img/Group 8).png" alt="" />
+            <img src="img /Group 8).png" alt="analytics" />
             <h3 class="features-heading">Data Analytics</h3>
             <p class="features-text">
               Receive data on the usage of either your shortened URL, custom
@@ -181,10 +177,11 @@
             </p>
           </div>
         </div>
+      </div>
         <!-- pricing section -->
       </section>
 <!-- pricing-section -->
-      <section class="pricing-section container">
+      <section class="pricing-section container section-center">
         <div class="price-section-head">
           <div class="price-title-container">
             <div class="title-bar"></div>
@@ -372,7 +369,7 @@
           </div>
           <!-- pricing card two -->
           <div class="pricing--card--2">
-            <div class="plan-details pro">
+            <div class="plan-details-pro">
               <p class="plan-name pro">Professional</p>
               <p class="plan-price pro">$15/month</p>
               <p class="plan-user pro">Ideal for business creators</p>
@@ -723,8 +720,8 @@
       <!-- CTA SECTION -->
       <section class="cta-section">
         <div class="cta">
-          <div class="cta-container">
-            <form class="cta-form" action="#">
+          <div class="cta-container ">
+            <form class="cta-form " action="#">
               <input
                 type="text"
                 placeholder="Paste URL here..."
@@ -744,7 +741,7 @@
                 </button>
                 <p>
                   By clicking TrimURL, I agree to the
-                  <b>Terms of Service, Privacy Policy</b> and Use of Cookies.
+                  Terms of Service, Privacy Policy and Use of Cookies.
                 </p>
               </select>
             </form>
@@ -753,7 +750,7 @@
       </section>
 
       <!-- FAQ SECTION -->
-      <section class="faq-section container">
+      <section class="faq-section container section-center">
         <h2 class="faq-heading">
           <span> <div class="title-bar"></div></span>
           FAQs
@@ -817,7 +814,7 @@
     </footer>
 
     <footer class="main-footer container">
-      <div class="footer-center">
+      <div class="footer-center  section-center">
         <div class="footer-body">
           <div class="footer-body-main">
             <div class="footer-icons">
